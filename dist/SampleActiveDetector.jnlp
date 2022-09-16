@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="SampleActiveDetector.jar" size="8619" download="eager" />
+    <jar href="SampleActiveDetector.jar" size="8153" download="eager" />
     <jar href="lib\jnativehook-2.1.0.jar" size="208804" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="SampleActiveDetector" >
