@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="294.0" prefWidth="444.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.wfh.emplos.SampleUIController">
+    <children>
+        <Label fx:id="mouseCountLabel" layoutX="131.0" layoutY="40.0" minHeight="16" minWidth="69" prefHeight="29.0" prefWidth="91.0" />
+      <Label fx:id="label1" layoutX="14.0" layoutY="40.0" minHeight="16" minWidth="69" prefHeight="29.0" prefWidth="103.0" text="MouseClickCounts" />
+      <Label fx:id="mouseMoveCoord" layoutX="131.0" layoutY="147.0" minHeight="16" minWidth="69" prefHeight="29.0" prefWidth="220.0" />
+      <Label fx:id="label11" layoutX="14.0" layoutY="147.0" minHeight="16" minWidth="69" prefHeight="29.0" prefWidth="103.0" text="MouseCoords" />
+      <Label fx:id="keyboardCountLabel" layoutX="127.0" layoutY="97.0" minHeight="16" minWidth="69" prefHeight="29.0" prefWidth="91.0" />
+      <Label fx:id="label12" layoutX="14.0" layoutY="97.0" minHeight="16" minWidth="69" prefHeight="29.0" prefWidth="103.0" text="Keycount" />
+      <Label fx:id="activeWindowTitle" layoutX="117.0" layoutY="221.0" minHeight="16" minWidth="69" prefHeight="29.0" prefWidth="220.0" />
+    </children>
+</AnchorPane>
