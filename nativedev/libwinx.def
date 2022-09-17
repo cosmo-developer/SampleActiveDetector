@@ -1,3 +1,0 @@
-EXPORTS
-    Java_com_wfh_emplos_platform_CrossPlatformWindow_getActiveWindow = Java_com_wfh_emplos_platform_CrossPlatformWindow_getActiveWindow@8 @1
-    Java_com_wfh_emplos_platform_CrossPlatformWindow_getActiveWindow@8 @2
