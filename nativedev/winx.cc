@@ -19,7 +19,7 @@ Window *list(Display* disp,unsigned long *len){
 }
 
 char *name(Display* disp,Window window){
-	Atom pro=XInternAtom(disp,"WM_NAME",False),type;
+	Atom prop=XInternAtom(disp,"WM_NAME",False),type;
 	int form;
 	unsigned long remain;
 	unsigned char* list;
