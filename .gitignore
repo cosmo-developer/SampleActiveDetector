@@ -1,1 +1,7 @@
 launch4jsetup
+/
+build/
+nativedev/build
+nativelib/
+ex/
+MPLOS_DESKTOP_JFX/

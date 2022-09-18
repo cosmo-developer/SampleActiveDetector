@@ -21,6 +21,7 @@ Window *list(Display* disp,unsigned long *len){
 char *name(Display* disp,Window window){
 	Atom prop=XInternAtom(disp,"WM_NAME",False),type;
 	int form;
+	int len;
 	unsigned long remain;
 	unsigned char* list;
 	XGetWindowProperty(disp,window,prop,0,1024,False,AnyPropertyType,&type,&form,&len,&remain,&list);
